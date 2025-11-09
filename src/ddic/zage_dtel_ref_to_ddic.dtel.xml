@@ -15,7 +15,6 @@
     <DATATYPE>REF</DATATYPE>
     <REFKIND>R</REFKIND>
     <REFTYPE>E</REFTYPE>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
   </asx:values>
  </asx:abap>
