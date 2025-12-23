@@ -6,4 +6,6 @@ INTERFACE zif_age_test
   data instance_data TYPE i.
   CLASS-data static_data TYPE i.
 
+  types test_bool type abap_boolean.
+
 ENDINTERFACE.
