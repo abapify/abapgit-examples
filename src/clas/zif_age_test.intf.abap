@@ -1,11 +1,4 @@
-INTERFACE zif_age_test
-  PUBLIC .
+interface ZIF_AGE_TEST
+  public .
 
-  METHODS instance_method.
-  CLASS-METHODS static_method.
-  data instance_data TYPE i.
-  CLASS-data static_data TYPE i.
-
-  types test_bool type abap_boolean.
-
-ENDINTERFACE.
+endinterface.
