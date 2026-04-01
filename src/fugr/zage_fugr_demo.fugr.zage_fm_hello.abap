@@ -1,8 +1,9 @@
-FUNCTION zage_fm_dummy.
+FUNCTION zage_fm_hello.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"----------------------------------------------------------------------
-  " Dummy function module - does nothing
+
+  " Hello world - does nothing
   RETURN.
 
 ENDFUNCTION.

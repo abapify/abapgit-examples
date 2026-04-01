@@ -4,14 +4,9 @@
   <asx:values>
    <AREAT>Sample Function Group</AREAT>
    <INCLUDES>
+    <SOBJ_NAME>LZAGE_FUGR_SAMPLETOP</SOBJ_NAME>
     <SOBJ_NAME>SAPLZAGE_FUGR_SAMPLE</SOBJ_NAME>
    </INCLUDES>
-   <FUNCTIONS>
-    <item>
-     <FUNCNAME>ZAGE_FM_DUMMY</FUNCNAME>
-     <SHORT_TEXT>Dummy function module</SHORT_TEXT>
-    </item>
-   </FUNCTIONS>
   </asx:values>
  </asx:abap>
 </abapGit>
