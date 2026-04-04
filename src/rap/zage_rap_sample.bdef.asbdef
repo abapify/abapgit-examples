@@ -1,0 +1,24 @@
+managed implementation in class ZCL_AGE_RAP_SAMPLE unique;
+
+define behavior for ZAGE_C_PROJECTION
+persistent table zage_tabl
+with additional save
+lock master
+authorization master ( instance )
+etag master LocalLastChangedAt
+{
+  field ( mandatory : create, readonly : update ) Client;
+  field ( readonly ) IsActiveEntity;
+  internal constructor.
+
+  create;
+  update;
+  delete;
+
+  validation validateData on save { field Client; }
+
+  mapping for zage_tabl
+  {
+    Client = client;
+  }
+}
