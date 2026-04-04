@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DDLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DDL>
+    <DDLNAME>ZAGE_CDS_SAMPLE</DDLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HISTORY>
+     <DDL>
+      <AUTHOR>DEVELOPER</AUTHOR>
+      <CREATEDON>20240101</CREATEDON>
+     </DDL>
+    </HISTORY>
+    <DESCRIPTION>AGE Sample CDS View</DESCRIPTION>
+    <MAIN_ENGINE>EP</MAIN_ENGINE>
+   </DDL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_BDEF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <BDEF>
+    <BDEF_NAME>ZAGE_RAP_SAMPLE</BDEF_NAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DESCRIPTION>AGE Sample RAP Behavior Definition</DESCRIPTION>
+    <HISTORY>
+     <BDEF>
+      <AUTHOR>DEVELOPER</AUTHOR>
+      <CREATEDON>20240101</CREATEDON>
+     </BDEF>
+    </HISTORY>
+   </BDEF>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SBTV" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOSBT>
+    <BTYPE>E</BTYPE>
+    <SBTNAME>ZAGE_RAP_SAMPLE</SBTNAME>
+    <SBTBAME>ZAGE_C_RAP_SAMPLE</SBTBAME>
+    <SBTVFORMAT>JSON</SBTVFORMAT>
+    <SBTLANGU>E</SBTLANGU>
+    <SBTDES>AGE Sample RAP Service Binding</SBTDES>
+    <SBTVMODE>PROXY</SBTVMODE>
+    <SBTLOIO>0000000000000000000000000000000000000000</SBTLOIO>
+    <SBTNOAUTH>X</SBTNOAUTH>
+   </VSEOSBT>
+  </asx:values>
+ </asx:abap>
+</abapGit>
