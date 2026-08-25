@@ -1,1 +1,3 @@
-define view entity Z_AFF_DTEB as select from I_Country { key Country }
+define view entity buffer on z_aff_ddls
+  layer localization
+  type single

@@ -9,6 +9,7 @@ FUNCTION zage_fm_calc.
 *"     VALUE(EV_RESULT) TYPE  I
 *"  RAISING
 *"      CX_SY_ZERODIVIDE
+*"      zcx_age_invalid_input
 *"----------------------------------------------------------------------
   CASE to_upper( iv_operation ).
     WHEN 'ADD'.
@@ -23,7 +24,9 @@ FUNCTION zage_fm_calc.
       ENDIF.
       ev_result = iv_a / iv_b.
     WHEN OTHERS.
-      ev_result = 0.
+      RAISE EXCEPTION TYPE zcx_age_invalid_input
+        EXPORTING
+          iv_message = |Unsupported operation: { iv_operation }|.
   ENDCASE.
 
 ENDFUNCTION.

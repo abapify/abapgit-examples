@@ -8,10 +8,12 @@ FUNCTION zage_fm_hello.
 *"  CHANGING
 *"     VALUE(CV_COUNTER) TYPE  I
 *"  RAISING
-*"      CX_SY_ZERODIVIDE
+*"      zcx_age_invalid_input
 *"----------------------------------------------------------------------
   IF iv_name IS INITIAL.
-    RAISE EXCEPTION TYPE cx_sy_zerodivide.
+    RAISE EXCEPTION TYPE zcx_age_invalid_input
+      EXPORTING
+        iv_message = 'IV_NAME cannot be empty'.
   ENDIF.
 
   cv_counter = cv_counter + 1.

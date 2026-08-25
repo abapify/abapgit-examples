@@ -1,1 +1,1 @@
-define scalar function Z_AFF_DSFD returns abap.int4 implemented by method zcl_aff_dsfi=>execute;
+define scalar function Z_AFF_DSFD returns abap.int4;

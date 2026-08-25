@@ -1,2 +1,14 @@
 managed implementation in class bp_z_aff_bdef unique;
-define behavior for Z_AFF_DDLS alias Root { read; }
+strict ( 2 );
+
+define behavior for Z_AFF_DDLS alias Root
+persistent table z_aff_bdef_root
+lock master
+authorization master ( none )
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly : update ) Country;
+}

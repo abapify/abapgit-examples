@@ -1,1 +1,5 @@
-define view entity Z_AFF_DTDC as select from I_Country { key Country }
+define dynamic cache Z_AFF_DTDC on spfli
+{
+  sum( fltime )
+}
+creation configurable default off
