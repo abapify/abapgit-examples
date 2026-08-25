@@ -1,0 +1,1 @@
+define service Z_AFF_SRVD { expose Z_AFF_DDLS as Countries; }

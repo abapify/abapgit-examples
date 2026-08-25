@@ -1,0 +1,2 @@
+managed implementation in class bp_z_aff_bdef unique;
+define behavior for Z_AFF_DDLS alias Root { read; }

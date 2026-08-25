@@ -1,0 +1,1 @@
+define role Z_AFF_DCLS { grant select on Z_AFF_DDLS where ( Country ) = aspect pfcg_auth( S_CARRID, CARRID, ACTVT = '03' ); }

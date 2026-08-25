@@ -1,0 +1,1 @@
+define view entity Z_AFF_DTIX as select from I_Country { key Country }
