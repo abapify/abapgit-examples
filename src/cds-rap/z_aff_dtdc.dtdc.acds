@@ -1,0 +1,5 @@
+define dynamic cache Z_AFF_DTDC on spfli
+{
+  sum( fltime )
+}
+creation configurable default off

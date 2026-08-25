@@ -1,0 +1,7 @@
+@MappingRole: true
+define role Z_AFF_DCLS
+{
+  grant select on Z_AFF_DDLS
+    where
+      Z_AFF_DDLS.Country = 'US';
+}

@@ -1,0 +1,1 @@
+define type Z_AFF_DRTY : abap.char( 3 );

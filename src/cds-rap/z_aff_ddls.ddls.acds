@@ -1,0 +1,6 @@
+define root view entity Z_AFF_DDLS
+  as select from z_aff_bdef_root
+{
+  key Country,
+      Description
+}

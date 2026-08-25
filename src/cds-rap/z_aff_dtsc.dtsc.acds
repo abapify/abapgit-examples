@@ -1,0 +1,6 @@
+define static cache Z_AFF_DTSC on z_aff_ddls
+{
+  key Country
+}
+retention 60
+creation configurable default on

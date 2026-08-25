@@ -1,0 +1,2 @@
+@Metadata.layer: #CORE
+annotate view Z_AFF_DDLS with { @UI.lineItem: [ { position: 10 } ] Country; }

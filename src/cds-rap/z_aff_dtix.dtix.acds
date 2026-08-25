@@ -1,0 +1,5 @@
+define text index Z_AFF_DTIX on z_aff_ddls
+{
+  Country
+}
+creation configurable default off
